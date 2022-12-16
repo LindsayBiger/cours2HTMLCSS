@@ -1,0 +1,36 @@
+div{
+    border : solid;
+}
+
+
+.parent {
+display: grid;
+grid-template-areas:
+"header header header header"
+"nav containt containt containt"
+"nav containt containt containt"
+"nav footer footer footer";
+grid-template-rows: 100px 100px 100px 100px 100px;
+grid-template-columns: 200px 300px 300px 300px ;
+}
+.header{
+    grid-area: header;
+}
+
+.nav{
+    grid-area: nav;
+}
+
+.containt{
+    grid-area: containt;
+
+}
+
+.footer{
+    grid-area: footer;
+}
+
+.contact{
+    grid-area: contact;
+    background-image:;
+}
